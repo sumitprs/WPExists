@@ -378,7 +378,7 @@ namespace WPExists
 
         private void CheckValidity()
         {
-            if(DateTime.Today.Year!=2021 && DateTime.Today.Month!=03)
+            if(DateTime.Today.Year!=2022 && DateTime.Today.Month!=05)
             {
                 MessageBox.Show("Evaluation Ended.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 Application.Exit();

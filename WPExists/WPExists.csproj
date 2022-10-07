@@ -68,10 +68,10 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>B43307B52D776BFDA2C4C0C5EC00512E28087A0A</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>6B8B5E59148F4BD386559B239D369E11DDDE669C</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>WPExists_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>WPExists_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>true</SignManifests>
@@ -174,7 +174,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="WPExists_TemporaryKey.pfx" />
+    <None Include="WPExists_1_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
